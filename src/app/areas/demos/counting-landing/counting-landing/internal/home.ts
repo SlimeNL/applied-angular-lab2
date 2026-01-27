@@ -18,5 +18,9 @@ export class Home {
       path: 'new-skool',
       title: 'New Skool',
     },
+    {
+      path: 'communications',
+      title: 'Communications',
+    },
   ]);
 }

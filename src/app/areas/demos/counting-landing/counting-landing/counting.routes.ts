@@ -3,6 +3,7 @@ import { Home } from './internal/home';
 import { HomePage } from './internal/pages/home';
 import { OldSkoolPage } from './internal/pages/old-skool';
 import { NewSkoolPage } from './internal/pages/new-skool';
+import { CommunicationPage } from './internal/pages/communication';
 
 export const countingFeatureRoutes: Routes = [
   {
@@ -21,6 +22,10 @@ export const countingFeatureRoutes: Routes = [
       {
         path: 'new-skool',
         component: NewSkoolPage,
+      },
+      {
+        path: 'communications',
+        component: CommunicationPage,
       },
     ],
   },
